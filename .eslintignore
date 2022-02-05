@@ -1,0 +1,6 @@
+node_modules
+dist            # typescript default output directory
+.yarn
+.pnp.js
+
+# other directories to skip linting

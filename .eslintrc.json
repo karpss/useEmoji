@@ -1,0 +1,17 @@
+{
+    "extends": [
+      "@abhijithvijayan/eslint-config", // or "@abhijithvijayan/eslint-config/typescript",
+      "@abhijithvijayan/eslint-config/react"
+    ],
+    "parser": "@babel/eslint-parser",
+"parserOptions": {
+   
+   "babelOptions": {
+      "presets": ["@babel/preset-react"]
+   }
+   
+},
+    "rules": {
+      // your overrides
+    }
+  }
