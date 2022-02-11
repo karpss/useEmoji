@@ -1,10 +1,11 @@
 /* eslint-disable */
 import './App.css';
+import EmojiList from './components/EmojiList';
 
 function App() {
   return (
     <div className='App'>
-      App
+      <EmojiList/>
     </div>
   );
 }
