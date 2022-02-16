@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  
+  
 }
 
 textarea {
@@ -10,10 +12,17 @@ textarea {
   height: 300px;
 }
 
-.emojilist{
-  
+.emojicontainer{
+
   background-color: #2ecc71;
   width: 500px;
   height: 300px;
   overflow:scroll;
 }
+
+.emojilist{
+display:inline;
+
+}
+
+ 
