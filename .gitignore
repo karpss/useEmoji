@@ -1,4 +1,5 @@
 node_modules
+components
 reportWebVitals.js
 setUpTests.js
 .env

@@ -47,10 +47,10 @@ const EmojiList = () => {
             ))}
           </div>
         </div>
-      ) : null}
-      <button type="button" onClick={() => setHideEmoji((s) => !s)}>
-        Add Emoji
-      </button>
+        ) : null}
+        <button type="button" onClick={() => setHideEmoji((s) => !s)}>
+          Add Emoji
+        </button>
     </div>
   );
 };
