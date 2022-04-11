@@ -8,7 +8,7 @@ function App() {
   const [input, setInput] = useState('');
 
   const handleClick = (e) => {
-    const eTarget = e.target.innerHTML;
+    const eTarget = e.target.innerText;
 
     setInput((prevInput) => prevInput + eTarget);
   };
